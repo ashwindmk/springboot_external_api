@@ -1,11 +1,8 @@
 package com.ashwin.java.resource.api;
 
-import com.ashwin.java.ExternalApiApplication;
 import com.ashwin.java.domain.model.Quote;
 import com.ashwin.java.domain.model.Value;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.web.client.RestTemplateBuilder;
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
