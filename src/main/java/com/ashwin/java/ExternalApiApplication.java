@@ -16,11 +16,6 @@ public class ExternalApiApplication {
 		SpringApplication.run(ExternalApiApplication.class, args);
 	}
 
-	@Bean
-	public RestTemplate getRestTemplate() {
-		return new RestTemplate();
-	}
-
 	/* Testing
 	private static final Logger log = LoggerFactory.getLogger(ExternalApiApplication.class);
 
